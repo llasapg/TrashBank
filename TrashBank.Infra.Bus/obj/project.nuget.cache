@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "zfePVQ8jsbrLVOFrLbY28Nu0L8BMP6HmbDfh1VhtSfijYECRB6Bi16N11LxRTsgvV5iv38SRgAxsddzRnsOi5A==",
+  "success": true,
+  "projectFilePath": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Bus/TrashBank.Infra.Bus.csproj",
+  "expectedPackageFiles": [
+    "/Users/llasapg/.nuget/packages/mediatr/8.0.2/mediatr.8.0.2.nupkg.sha512",
+    "/Users/llasapg/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.6/microsoft.extensions.dependencyinjection.3.1.6.nupkg.sha512",
+    "/Users/llasapg/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.6/microsoft.extensions.dependencyinjection.abstractions.3.1.6.nupkg.sha512",
+    "/Users/llasapg/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/llasapg/.nuget/packages/rabbitmq.client/6.1.0/rabbitmq.client.6.1.0.nupkg.sha512",
+    "/Users/llasapg/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/llasapg/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

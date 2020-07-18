@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dYyOzE+6NPo+UJA6Rok3luoMWlwCV4ayrLDGsYMq0JdeZ9+OpfApW2XVObmDJaZVgfqnGXYGWpMe5fFApvSUrg==",
+  "success": true,
+  "projectFilePath": "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/llasapg/.nuget/packages/mediatr/8.0.2/mediatr.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

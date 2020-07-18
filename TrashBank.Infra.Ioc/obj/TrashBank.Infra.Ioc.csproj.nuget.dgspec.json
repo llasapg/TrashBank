@@ -1,0 +1,203 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Ioc/TrashBank.Infra.Ioc.csproj": {}
+  },
+  "projects": {
+    "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj",
+        "projectName": "TrashBank.Domain.Core",
+        "projectPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj",
+        "packagesPath": "/Users/llasapg/.nuget/packages/",
+        "outputPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/llasapg/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Bus/TrashBank.Infra.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Bus/TrashBank.Infra.Bus.csproj",
+        "projectName": "TrashBank.Infra.Bus",
+        "projectPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Bus/TrashBank.Infra.Bus.csproj",
+        "packagesPath": "/Users/llasapg/.nuget/packages/",
+        "outputPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Bus/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/llasapg/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj": {
+                "projectPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Ioc/TrashBank.Infra.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Ioc/TrashBank.Infra.Ioc.csproj",
+        "projectName": "TrashBank.Infra.Ioc",
+        "projectPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Ioc/TrashBank.Infra.Ioc.csproj",
+        "packagesPath": "/Users/llasapg/.nuget/packages/",
+        "outputPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Ioc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/llasapg/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj": {
+                "projectPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Domain.Core/TrashBank.Domain.Core.csproj"
+              },
+              "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Bus/TrashBank.Infra.Bus.csproj": {
+                "projectPath": "/Users/llasapg/Projects/TrashBank/TrashBank.Infra.Bus/TrashBank.Infra.Bus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
